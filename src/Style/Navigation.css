@@ -1,0 +1,25 @@
+.responsiveSearch {
+    display: none !important;
+}
+
+
+@media (max-width: 1000px) {
+    .responsiveSearch {
+        display: block !important;
+    }
+
+    .responsiveInput {
+        display: none !important;
+    }
+
+    .responsiveNavIcon {
+        display: none !important;
+    }
+}
+
+
+@media (max-width: 566px) {
+    .responsiveForWork {
+        display: none;
+    }
+}
